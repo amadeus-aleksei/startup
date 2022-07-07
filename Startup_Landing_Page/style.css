@@ -1,0 +1,73 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+
+    /* image as background */
+    background: url(tech.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    color: #e2dbdb;
+    font-size: 3rem;
+}
+
+h3 {
+    color: #e2dbdb;
+    margin: 40px;
+    background-color: #004633;
+    border-radius: 200px;
+    opacity: 85%;
+}
+
+a {
+    text-decoration: none;
+    color: #e2dbdb;
+}
+
+a:hover {
+    color: #2F9579;
+}
+
+hr {
+    margin: 20px auto;
+    color: #077355;
+    border: 3px solid #077355;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.buffer {
+    height: 5rem;
+}
+
+.buffer2 {
+    height: .25rem;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #077355;
+    border-color: #077355;
+}
+
+.btn-primary:hover {
+    background-color: #2F9579;
+    border-color: #2F9579;
+    transform: scale(1.05);
+}
+
+.btn-xl {
+    padding: 1rem 3rem;
+    transition: all .4s;
+}
+
