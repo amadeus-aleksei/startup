@@ -1,0 +1,27 @@
+body {
+    background: #FFEFA4;
+}
+
+h2, p {
+    text-align: center;
+    border: 5px solid #A78A00;
+    cursor: pointer;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext {
+    border: 5px dashed #A78A00;
+}
+
+#background {
+   background-color: #FFE670;
+}
